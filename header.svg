@@ -26,9 +26,6 @@
       @keyframes breatheR {
         0%,100%{opacity:1} 50%{opacity:0.6}
       }
-      @keyframes cursorPulse {
-        0%,100%{opacity:1} 50%{opacity:0.1}
-      }
       @keyframes typewriter {
         from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0% 0 0)}
       }
@@ -182,28 +179,5 @@
     font-size="13.5" font-weight="400" letter-spacing="2"
     fill="rgba(140,160,200,0.7)">Seguir el camino del corazón y tener la voluntad hacia la prosperidad</text>
 
-  <!-- CURSOR: moves with typewriter then blinks at end -->
-  <rect
-    y="143" width="2" height="16" rx="1"
-    fill="#00d4ff"
-    filter="url(#cursorGlow)">
-    <!-- Move x in sync with typewriter: hidden before start, travels left→right during typing, stays at end -->
-    <animate attributeName="x"
-      values="106;106;802;802"
-      keyTimes="0;0.131;0.673;1"
-      calcMode="linear"
-      dur="4.2s" begin="0s" fill="freeze"/>
-    <!-- Opacity: invisible before typing, visible during + after -->
-    <animate attributeName="opacity"
-      values="0;0;1;1;0.1;1;0.1;1"
-      keyTimes="0;0.13;0.14;0.68;0.73;0.8;0.88;1"
-      calcMode="discrete"
-      dur="4.2s" begin="0s" fill="freeze"/>
-    <!-- After typing ends: blink cursor -->
-    <animate attributeName="opacity"
-      values="1;1;0.08;1;0.08;1"
-      keyTimes="0;0.1;0.35;0.6;0.85;1"
-      dur="1s" begin="4.2s" repeatCount="indefinite"/>
-  </rect>
 
 </svg>
