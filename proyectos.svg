@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80">
+  <defs>
+    <style>
+      @keyframes titleGlow {
+        0%,100%{filter:drop-shadow(0 0 6px rgba(0,212,255,0.8)) drop-shadow(0 0 18px rgba(0,212,255,0.4))}
+        50%{filter:drop-shadow(0 0 12px rgba(0,212,255,1)) drop-shadow(0 0 30px rgba(0,212,255,0.6)) drop-shadow(0 0 55px rgba(0,212,255,0.25))}
+      }
+      @keyframes glitchT1 {
+        0%,91%,100%{transform:translate(0,0);opacity:0}
+        92%{transform:translate(-4px,1px);opacity:0.6}
+        94%{transform:translate(4px,-1px);opacity:0.5}
+        97%{transform:translate(0,0);opacity:0}
+      }
+      @keyframes glitchT2 {
+        0%,85%,100%{transform:translate(0,0);opacity:0}
+        86%{transform:translate(5px,-1px);opacity:0.6}
+        88%{transform:translate(-4px,1px);opacity:0.5}
+        91%{transform:translate(0,0);opacity:0}
+      }
+      .title-main { animation: titleGlow 4s ease-in-out infinite; }
+      .title-g1   { animation: glitchT1 7s infinite; }
+      .title-g2   { animation: glitchT2 7s infinite; }
+    </style>
+    <linearGradient id="lgproyectos" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="#00d4ff" stop-opacity="0.7"/>
+      <stop offset="85%"  stop-color="#7c3aed" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Particles -->
+  <circle cx="386.9" cy="46.4" r="0.85" fill="rgba(255,255,255,0.18)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="6.5s" begin="2.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;22.1,7.4;0,0" dur="6.5s" begin="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="152.7" cy="6.8" r="0.72" fill="rgba(255,255,255,0.22)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="10.7s" begin="3.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;9.5,-6.9;0,0" dur="10.7s" begin="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="179.2" cy="2.0" r="0.44" fill="rgba(0,212,255,0.18)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="5.5s" begin="2.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;7.1,-7.6;0,0" dur="5.5s" begin="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="626.7" cy="39.6" r="0.44" fill="rgba(255,255,255,0.22)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="10.3s" begin="3.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-21.6,-1.9;0,0" dur="10.3s" begin="3.9s" repeatCount="indefinite"/></circle>
+  <circle cx="158.3" cy="76.6" r="0.72" fill="rgba(255,255,255,0.07)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="10.9s" begin="2.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;16.6,4.2;0,0" dur="10.9s" begin="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="889.1" cy="47.6" r="1.15" fill="rgba(0,212,255,0.28)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="10.0s" begin="2.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;18.2,1.2;0,0" dur="10.0s" begin="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="807.5" cy="59.5" r="0.67" fill="rgba(255,255,255,0.12)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="9.5s" begin="3.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;1.2,3.2;0,0" dur="9.5s" begin="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="247.1" cy="6.2" r="0.49" fill="rgba(255,255,255,0.13)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="8.8s" begin="0.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-14.8,4.8;0,0" dur="8.8s" begin="0.7s" repeatCount="indefinite"/></circle>
+  <circle cx="635.8" cy="5.1" r="0.61" fill="rgba(255,255,255,0.20)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="6.4s" begin="2.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;22.3,2.1;0,0" dur="6.4s" begin="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="626.0" cy="68.5" r="0.97" fill="rgba(255,255,255,0.16)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="7.5s" begin="3.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;19.4,11.3;0,0" dur="7.5s" begin="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="377.1" cy="59.8" r="0.75" fill="rgba(255,255,255,0.21)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="6.5s" begin="2.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-25.9,-4.1;0,0" dur="6.5s" begin="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="611.2" cy="32.3" r="0.37" fill="rgba(255,255,255,0.18)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="9.4s" begin="0.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-5.8,1.6;0,0" dur="9.4s" begin="0.1s" repeatCount="indefinite"/></circle>
+  <circle cx="24.4" cy="51.4" r="0.34" fill="rgba(255,255,255,0.18)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="7.7s" begin="1.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-9.5,6.5;0,0" dur="7.7s" begin="1.1s" repeatCount="indefinite"/></circle>
+  <circle cx="341.2" cy="60.2" r="1.03" fill="rgba(255,255,255,0.12)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="5.1s" begin="2.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;27.5,-3.8;0,0" dur="5.1s" begin="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="585.1" cy="62.5" r="0.85" fill="rgba(0,212,255,0.25)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="6.4s" begin="0.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-19.1,-9.3;0,0" dur="6.4s" begin="0.1s" repeatCount="indefinite"/></circle>
+  <circle cx="602.5" cy="45.1" r="0.42" fill="rgba(0,212,255,0.23)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="6.2s" begin="3.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;13.6,-9.6;0,0" dur="6.2s" begin="3.0s" repeatCount="indefinite"/></circle>
+  <circle cx="737.4" cy="77.2" r="0.31" fill="rgba(255,255,255,0.07)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="9.7s" begin="4.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-5.7,5.4;0,0" dur="9.7s" begin="4.8s" repeatCount="indefinite"/></circle>
+  <circle cx="68.4" cy="55.2" r="0.83" fill="rgba(0,212,255,0.09)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="11.0s" begin="3.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-20.8,12.1;0,0" dur="11.0s" begin="3.0s" repeatCount="indefinite"/></circle>
+  <circle cx="704.4" cy="27.8" r="0.63" fill="rgba(124,58,237,0.15)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="7.4s" begin="4.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;17.7,-9.9;0,0" dur="7.4s" begin="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="864.7" cy="50.8" r="1.03" fill="rgba(255,255,255,0.24)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="10.1s" begin="4.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-12.6,7.7;0,0" dur="10.1s" begin="4.8s" repeatCount="indefinite"/></circle>
+  <circle cx="484.4" cy="38.7" r="0.64" fill="rgba(255,255,255,0.24)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="11.0s" begin="4.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-22.7,9.5;0,0" dur="11.0s" begin="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="219.5" cy="37.2" r="0.81" fill="rgba(255,255,255,0.15)"><animate attributeName="opacity" values="0.05;0.35;0.05" dur="11.0s" begin="0.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-15.8,7.4;0,0" dur="11.0s" begin="0.9s" repeatCount="indefinite"/></circle>
+
+  <!-- Decorative lines flanking the title -->
+  <line x1="0" y1="40" x2="260" y2="40" stroke="url(#lgproyectos)" stroke-width="1" opacity="0.5"/>
+  <line x1="640" y1="40" x2="900" y2="40" stroke="url(#lgproyectos)" stroke-width="1" opacity="0.5"/>
+
+  <!-- Glitch layer cyan -->
+  <text class="title-g1"
+    x="450" y="52"
+    text-anchor="middle"
+    font-family="'Courier New', monospace"
+    font-size="26" font-weight="900" letter-spacing="8"
+    fill="#00d4ff" opacity="0">PROYECTOS</text>
+
+  <!-- Glitch layer violet -->
+  <text class="title-g2"
+    x="450" y="52"
+    text-anchor="middle"
+    font-family="'Courier New', monospace"
+    font-size="26" font-weight="900" letter-spacing="8"
+    fill="#7c3aed" opacity="0">PROYECTOS</text>
+
+  <!-- Main title -->
+  <text class="title-main"
+    x="450" y="52"
+    text-anchor="middle"
+    font-family="'Courier New', monospace"
+    font-size="26" font-weight="900" letter-spacing="8"
+    fill="#ffffff">PROYECTOS</text>
+
+</svg>
