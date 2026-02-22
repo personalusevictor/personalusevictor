@@ -98,10 +98,6 @@
   <circle cx="889.1" cy="131.0" r="1.44" fill="rgba(0,212,255,0.46)"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="11.8s" begin="4.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;26.4,2.9;0,0" dur="11.8s" begin="4.0s" repeatCount="indefinite"/></circle>
   <circle cx="377.1" cy="164.5" r="0.96" fill="rgba(255,255,255,0.34)"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="7.8s"  begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;-37.7,-9.8;0,0" dur="7.8s" begin="3.5s" repeatCount="indefinite"/></circle>
 
-  <!-- Left / Right glow -->
-  <ellipse class="glow-l" cx="0"   cy="110" rx="120" ry="100" fill="url(#glowLeftGrad)"  style="filter:blur(30px)"/>
-  <ellipse class="glow-r" cx="900" cy="110" rx="120" ry="100" fill="url(#glowRightGrad)" style="filter:blur(30px)"/>
-
   <!--
     JAPANESE CROSSFADE  —  ciclo de 10s
       0s  → 3s    ビクトル visible
