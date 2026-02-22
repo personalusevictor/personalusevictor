@@ -92,7 +92,7 @@
 | &nbsp; | proyecto | descripción | stack | estado |
 |:---:|:---|:---|:---:|:---:|
 | 📚 | **DAW Repo** | Prácticas y ejercicios del ciclo formativo | `HTML` `CSS` `JS` `Java` | 🟢 activo |
-| ☕ | **Proyecto Java** | Aplicación desarrollada en Java | `Java` | ✅ completado |
+| ☕ | **Proyecto Java** | Aplicación desarrollada en Java | `Java` | 🟢 activo |
 | ✂️ | **Peluquería Web** | Web profesional para negocio local | `Astro` `Tailwind` | 🔜 próximamente |
 
 </div>
