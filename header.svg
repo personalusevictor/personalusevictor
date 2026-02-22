@@ -26,8 +26,8 @@
         from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0% 0 0)}
       }
       @keyframes neonPulse {
-        0%,100%{filter:drop-shadow(0 0 6px rgba(0,212,255,0.9)) drop-shadow(0 0 18px rgba(0,212,255,0.55)) drop-shadow(0 0 40px rgba(0,212,255,0.25))}
-        50%{filter:drop-shadow(0 0 8px rgba(0,212,255,1)) drop-shadow(0 0 24px rgba(0,212,255,0.7)) drop-shadow(0 0 52px rgba(0,212,255,0.3))}
+        0%,100%{filter:drop-shadow(0 0 5px rgba(0,212,255,0.9)) drop-shadow(0 0 14px rgba(0,212,255,0.5)) drop-shadow(0 0 26px rgba(0,212,255,0.2))}
+        50%{filter:drop-shadow(0 0 7px rgba(0,212,255,1)) drop-shadow(0 0 18px rgba(0,212,255,0.65)) drop-shadow(0 0 34px rgba(0,212,255,0.25))}
       }
       .username-main { animation: flicker 7s infinite, neonPulse 4s ease-in-out infinite; }
       .username-g1   { animation: glitch1 6s infinite; }
@@ -47,11 +47,12 @@
     <mask id="waveMask">
       <rect width="900" height="220" fill="url(#waveFade)"/>
     </mask>
+
   </defs>
 
+  <!-- Sin fondo — transparente -->
 
-
-  <!-- Neon waves con fade horizontal -->
+  <!-- Neon waves -->
   <g opacity="0.15" mask="url(#waveMask)">
     <path fill="none" stroke="rgba(0,212,255,0.55)" stroke-width="2">
       <animate attributeName="d" dur="12s" repeatCount="indefinite"
@@ -128,7 +129,7 @@
     font-size="56" font-weight="900" letter-spacing="2"
     fill="#7c3aed" opacity="0">personalusevictor</text>
 
-  <!-- USERNAME main — sin máscara, el glow vive libre -->
+  <!-- USERNAME main -->
   <text class="username-main" x="450" y="118" text-anchor="middle"
     font-family="'Courier New', monospace"
     font-size="56" font-weight="900" letter-spacing="2"
@@ -139,4 +140,7 @@
     font-family="'Courier New', monospace"
     font-size="13.5" font-weight="400" letter-spacing="2"
     fill="rgba(140,160,200,0.7)">Seguir el camino del corazón y tener la voluntad hacia la prosperidad</text>
+
+
+
 </svg>
