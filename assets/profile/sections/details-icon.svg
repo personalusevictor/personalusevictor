@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" role="img" aria-labelledby="title">
+<title id="title">Estadísticas detalladas</title>
+<style>:root{--paper:#F3EFE7;--ink:#382D26;--line:#DACEBE;--muted:#796956;--empty:#E3D8C8;--one:#C4AE93;--two:#A48768;--three:#806347;--four:#5E4733}.mark-dark{display:none}@media(prefers-color-scheme:dark){:root{--paper:#211E1B;--ink:#EDE3D4;--line:#4A3E32;--muted:#C0AE97;--empty:#3E3329;--one:#70573F;--two:#98734F;--three:#C39A6D;--four:#EAD0AB}.mark-light{display:none}.mark-dark{display:inline}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.material-b{opacity:0!important}}</style>
+<g fill="none" stroke="var(--three)" stroke-width="1.5" stroke-linecap="round"><path d="M3 2v16h15M7 14V9m5 5V5m5 9V2"/></g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "personalusevictor-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/build_profile.py",
+    "stats:refresh": "python3 scripts/profile_stats.py",
+    "preview:build": "node scripts/preview.mjs",
+    "preview": "node scripts/preview.mjs --serve",
+    "test": "python3 -m unittest discover -s scripts -p 'test_*.py' && node --test scripts/kitsune.test.mjs"
+  },
+  "devDependencies": {
+    "github-markdown-css": "5.9.0",
+    "marked": "18.2.0"
+  }
+}

@@ -1,0 +1,3 @@
+# Generated vector artwork is not handwritten source code.
+assets/**/*.svg linguist-generated=true
+assets/profile/tech/** linguist-vendored=true

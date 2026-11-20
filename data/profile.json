@@ -1,0 +1,42 @@
+{
+  "username": "personalusevictor",
+  "name": "Víctor",
+  "japanese_name": "ビクトル",
+  "alias": "Vimo",
+  "location": "La Palma, Canarias",
+  "education": "2.º de Desarrollo de Aplicaciones Web",
+  "email": "personalusevictor@gmail.com",
+  "social": "https://x.com/personaluvictor",
+  "technologies": {
+    "current": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS",
+      "PHP"
+    ],
+    "experience": [
+      "Java",
+      "React",
+      "TypeScript"
+    ],
+    "basic": [
+      "C++"
+    ],
+    "interests": [
+      "Astro"
+    ]
+  },
+  "introduction": "¡Hola! Soy **Víctor**, estudiante de segundo del Grado Superior de Desarrollo de Aplicaciones Web en La Palma, Canarias. Me gusta aprender construyendo proyectos, probando herramientas, investigando, diseñando y resolviendo problemas.",
+  "learning_focus": [
+    "JavaScript",
+    "React"
+  ],
+  "technology_context": {
+    "Java": "Utilizado durante todo primero de DAW.",
+    "React": "Utilizado en VCode.",
+    "TypeScript": "Utilizado en VCode.",
+    "C++": "Conocimientos básicos, aprendidos por cuenta propia.",
+    "Astro": "Interés y familiaridad por lectura de código, sin proyecto propio todavía."
+  }
+}

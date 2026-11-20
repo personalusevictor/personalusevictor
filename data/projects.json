@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "id": "vcode",
+      "title": "VCode",
+      "description": "Biblioteca de programación para aprender y consultar.",
+      "detail": "Diseño, 3D y búsqueda de contenidos.",
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "repository": null
+    },
+    {
+      "id": "vtechshop",
+      "title": "VTechShop",
+      "description": "Tienda online de productos tecnológicos.",
+      "detail": "Catálogo, carrito y pedidos.",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "Tailwind"
+      ],
+      "repository": "https://github.com/personalusevictor/php-course/tree/main/VTechShop"
+    },
+    {
+      "id": "department",
+      "title": "Departamento de Informática",
+      "description": "Web del departamento: un espacio para información y avisos.",
+      "detail": "Primeros pasos del proyecto.",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Next.js"
+      ],
+      "repository": null
+    }
+  ]
+}
