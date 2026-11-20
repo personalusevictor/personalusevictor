@@ -51,39 +51,38 @@ def artwork(stats):
 
 def introduction(profile):
     for mobile in (False, True):
-        width, height = (400, 164) if mobile else (840, 124)
+        width = 400 if mobile else 840
         left = 58 if mobile else 72
-        body = image(
-            "assets/profile/memoji.png",
-            0,
-            60 if mobile else 26,
-            44 if mobile else 56,
-            44 if mobile else 56,
-        )
-        body += text(
-            "¡Hola! Soy Víctor.",
-            left,
-            31,
-            21 if mobile else 22,
-            "var(--ink)",
-            "editorial",
-        )
+        avatar_size = 44 if mobile else 56
+        title_size = 21 if mobile else 22
+        paragraph_size = 15.5
         bio = "Estudiante de segundo del Grado Superior de Desarrollo de Aplicaciones Web en La Palma, Canarias. Me gusta aprender construyendo proyectos, probando herramientas, investigando, diseñando y resolviendo problemas."
-        body += lines(
+        paragraph = lines(
             bio,
             left,
             62,
-            14.5,
+            paragraph_size,
             "var(--ink)",
             width - left - 2,
             face="regular",
             leading=1.4,
         )
+        line_count = paragraph.count("aria-label=")
+        text_top = 31 - title_size * 0.75
+        text_bottom = (
+            62 + (line_count - 1) * paragraph_size * 1.4 + paragraph_size * 0.25
+        )
+        avatar_y = (text_top + text_bottom) / 2 - avatar_size * 0.45
+        body = image("assets/profile/memoji.png", 0, avatar_y, avatar_size, avatar_size)
+        body += text(
+            "¡Hola! Soy Víctor.", left, 31, title_size, "var(--ink)", "editorial"
+        )
+        body += paragraph
         body = '<g transform="translate(0 28)">' + body + "</g>"
         svg_file(
             OUTPUT / ("intro-mobile.svg" if mobile else "intro.svg"),
             width,
-            height + 28,
+            round(text_bottom + 34),
             body,
             profile["introduction"].replace("**", ""),
             THEME,
